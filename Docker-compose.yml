@@ -1,0 +1,12 @@
+services:
+  web:
+    image: python:3.13-alpine
+    build: 
+      context: . #https://github.com/amaya732/Proyecto_Motos_Sena
+      dockerfile: Dockerfile
+    ports:
+      - "5070:5070"
+    volumes:
+      - .:/app
+    environment:
+        - APP_NAME=$APP_NAME

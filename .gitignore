@@ -1,0 +1,70 @@
+# -------------------------
+# Entorno virtual
+# -------------------------
+venv/
+.venv/
+env/
+.venv*/
+ENV/
+env.bak/
+
+# -------------------------
+# Archivos de entorno y configuraciones secretas
+# -------------------------
+.env
+*.env
+
+# -------------------------
+# Archivos de caché de Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Archivos de base de datos locales (ej: SQLite en desarrollo)
+# -------------------------
+*.db
+instance/
+
+# -------------------------
+# Archivos de logs
+# -------------------------
+*.log
+
+# -------------------------
+# Archivos de compilación / distribución
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# -------------------------
+# Archivos temporales de tu editor/IDE
+# -------------------------
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# Archivos de tests y coverage
+# -------------------------
+.coverage
+coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+
+# -------------------------
+# Archivos de sistema
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Carpeta de subidas si no quieres subir imágenes de prueba
+# -------------------------
+app/static/uploads/
